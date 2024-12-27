@@ -8,7 +8,7 @@ void main() {
 int minimumValue(List<int> numbers) {
 
   int minValue = numbers[0];
-  // for loop to check each 
+  // for loop to check each number and added to minValue
     for (int number in numbers) {
     if (number < minValue) {
       minValue = number;
